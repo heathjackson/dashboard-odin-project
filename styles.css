@@ -1,0 +1,148 @@
+:root {
+  --main-bg-color: #e0e1dd;
+  --blue-accent: #415A77;
+  --orange-accent: #EB961E;
+  --dark-blue: #1b263b;
+}
+
+body {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) 4fr;
+  grid-template-rows: 1fr 4fr;
+  margin: 30px;
+}
+
+nav {
+  grid-row: 1 / 3;
+  background-color: var(--blue-accent);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+}
+
+.header {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.search-header {
+  margin-bottom: 20px;
+}
+
+.search-header, .personal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.search-header p {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.search-header input, .greeting {
+  flex-grow: 1;
+  margin-right: 40px;
+}
+
+button {
+  background-color: var(--blue-accent);
+  border-radius: 20px;
+  color: white;
+  padding: 2px 20px;
+  border: none;
+}
+
+.search-header input {
+  background-color: var(--main-bg-color);
+  border: none;
+  border-radius: 15px;
+}
+
+.search-header img {
+  width: 20px;
+}
+
+#account-picture-header {
+  width: 24px;
+}
+
+#personal-picture-header {
+  width: 42px;
+}
+
+#personal-header-name {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.main-info {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  background-color: var(--main-bg-color);
+}
+
+.main-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.main-left h2 {
+  grid-column: 1 / 3;
+}
+
+.cards {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: var(--orange-accent) solid 5px;
+  border-radius: 10px;
+}
+
+.cards h3, .cards p, .announcement-sub-categories h4, 
+.announcement-sub-categories p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.images-cards {
+  display: flex;
+  justify-content: end;
+}
+
+.main-right {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.announcement-sub-categories {
+  background: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+h3, h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+
