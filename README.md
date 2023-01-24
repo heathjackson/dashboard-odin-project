@@ -18,4 +18,4 @@ This is the second project as part of [The Odin Project](https://www.theodinproj
 
 1. I will be diving further into JavaScript and moving to the intermediate level.
 
-2. I will also be learning more about databases and how to incorporate that into my builds.
+2. I will also be learning more about databases and how to incorporate those into my builds.
