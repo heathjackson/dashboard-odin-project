@@ -1,6 +1,6 @@
 # dashboard-odin-project
 
-This is the second project as part of [The Odin Project] (https://www.theodinproject.com) in the [Intermediate HTML and CSS Section] (https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css).  This is a simple dashboard created using HTML and CSS.  Specifically I encorprated CSS Grid and Flexbox.
+This is the second project as part of [The Odin Project](https://www.theodinproject.com) in the [Intermediate HTML and CSS Section](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css).  This is a simple dashboard created using HTML and CSS.  Specifically I encorprated CSS Grid and Flexbox.
 
 ---
 
